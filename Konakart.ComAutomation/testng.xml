@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<suite-files>
+		<suite-file
+			path="./src\test\resources\suitefiles\homepagesearchbox.xml" />
+		<!-- <suite-file path="./src\test\resources\suitefiles\heroimage.xml"/> -->
+<!-- 		<suite-file -->
+<!-- 			path="./src\test\resources\suitefiles\computerperipheral.xml" /> -->
+<!-- 		<suite-file -->
+<!-- 			path="./src\test\resources\suitefiles\priceslidebar.xml" /> -->
+	</suite-files>
+</suite> <!-- Suite -->

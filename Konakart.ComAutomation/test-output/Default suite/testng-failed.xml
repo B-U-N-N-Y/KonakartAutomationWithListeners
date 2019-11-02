@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.atmecs.konakartautomation.testscripts.HeroImageFunctionality">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="startReport"/>
+          <include name="heroImageSelect"/>
+          <include name="intitailizeBrowser"/>
+          <include name="tearDown"/>
+          <include name="heroImgSortingRatingFunctionality" invocation-numbers="0"/>
+          <include name="heroImgSortingDateFunctionality" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.atmecs.konakartautomation.testscripts.HeroImageFunctionality -->
+      <class name="com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="startReport"/>
+          <include name="intitailizeBrowser"/>
+          <include name="priceSlideBar" invocation-numbers="0 1 2 3"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

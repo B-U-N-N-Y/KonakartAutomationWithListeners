@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.atmecs.konakartautomation.testscripts.HeroImageFunctionality">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="startReport"/>
+          <include name="intitailizeBrowser"/>
+          <include name="tearDown"/>
+          <include name="heroImgSortingRatingFunctionality" invocation-numbers="0"/>
+          <include name="heroImgSortingDateFunctionality" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.atmecs.konakartautomation.testscripts.HeroImageFunctionality -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

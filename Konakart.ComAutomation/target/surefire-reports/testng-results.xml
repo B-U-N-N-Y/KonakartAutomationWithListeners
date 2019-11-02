@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="0" started-at="2019-10-10T15:10:18Z" finished-at="2019-10-10T15:10:18Z">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite name="Suite (1)" duration-ms="53217" started-at="2019-10-10T15:08:16Z" finished-at="2019-10-10T15:09:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="53217" started-at="2019-10-10T15:08:16Z" finished-at="2019-10-10T15:09:10Z">
+      <class name="com.atmecs.konakartautomation.testscripts.HeroImageFunctionality">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67]" name="startReport" is-config="true" duration-ms="13" started-at="2019-10-10T15:08:16Z" finished-at="2019-10-10T15:08:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="intitailizeBrowser()[pri:0, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67]" name="intitailizeBrowser" is-config="true" duration-ms="16127" started-at="2019-10-10T15:08:16Z" finished-at="2019-10-10T15:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+        <test-method status="PASS" signature="heroImageSelect()[pri:1, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67]" name="heroImageSelect" duration-ms="4489" started-at="2019-10-10T15:08:32Z" finished-at="2019-10-10T15:08:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- heroImageSelect -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-10T15:08:37Z" finished-at="2019-10-10T15:08:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=heroImageSelect status=SUCCESS method=HeroImageFunctionality.heroImageSelect()[pri:1, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="heroImgContent([Ljava.lang.String;)[pri:2, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67]" name="heroImgContent" duration-ms="835" started-at="2019-10-10T15:08:37Z" data-provider="heroimage" finished-at="2019-10-10T15:08:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@286b39c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- heroImgContent -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-10T15:08:38Z" finished-at="2019-10-10T15:08:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=heroImgContent status=SUCCESS method=HeroImageFunctionality.heroImgContent([Ljava.lang.String;)[pri:2, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="heroImgContent([Ljava.lang.String;)[pri:2, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67]" name="heroImgContent" duration-ms="28" started-at="2019-10-10T15:08:38Z" data-provider="heroimage" finished-at="2019-10-10T15:08:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5432050b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- heroImgContent -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-10T15:08:38Z" finished-at="2019-10-10T15:08:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=heroImgContent status=SUCCESS method=HeroImageFunctionality.heroImgContent([Ljava.lang.String;)[pri:2, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="heroImgSortingDateFunctionality([Ljava.lang.String;)[pri:3, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67]" name="heroImgSortingDateFunctionality" duration-ms="14647" started-at="2019-10-10T15:08:38Z" data-provider="reviewdropdown" finished-at="2019-10-10T15:08:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@75f2099]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- heroImgSortingDateFunctionality -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-10T15:08:53Z" finished-at="2019-10-10T15:08:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=heroImgSortingDateFunctionality status=SUCCESS method=HeroImageFunctionality.heroImgSortingDateFunctionality([Ljava.lang.String;)[pri:3, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="heroImgSortingRatingFunctionality([Ljava.lang.String;)[pri:4, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67]" name="heroImgSortingRatingFunctionality" duration-ms="15759" started-at="2019-10-10T15:08:53Z" data-provider="reviewdropdown" finished-at="2019-10-10T15:09:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1c12f3ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- heroImgSortingRatingFunctionality -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-10T15:09:08Z" finished-at="2019-10-10T15:09:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=heroImgSortingRatingFunctionality status=SUCCESS method=HeroImageFunctionality.heroImgSortingRatingFunctionality([Ljava.lang.String;)[pri:4, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67]" name="closeDriver" is-config="true" duration-ms="1065" started-at="2019-10-10T15:09:08Z" finished-at="2019-10-10T15:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.atmecs.konakartautomation.testscripts.HeroImageFunctionality@6a024a67]" name="endReport" is-config="true" duration-ms="174" started-at="2019-10-10T15:09:10Z" finished-at="2019-10-10T15:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.atmecs.konakartautomation.testscripts.HeroImageFunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (1) -->
+  <suite name="Suite (0)" duration-ms="29747" started-at="2019-10-10T15:07:46Z" finished-at="2019-10-10T15:08:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29747" started-at="2019-10-10T15:07:46Z" finished-at="2019-10-10T15:08:16Z">
+      <class name="com.atmecs.konakartautomation.testscripts.HomePageSearchBoxFunctionality">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.atmecs.konakartautomation.testscripts.HomePageSearchBoxFunctionality@52af6cff]" name="startReport" is-config="true" duration-ms="240" started-at="2019-10-10T15:07:46Z" finished-at="2019-10-10T15:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="intitailizeBrowser()[pri:0, instance:com.atmecs.konakartautomation.testscripts.HomePageSearchBoxFunctionality@52af6cff]" name="intitailizeBrowser" is-config="true" duration-ms="18528" started-at="2019-10-10T15:07:46Z" finished-at="2019-10-10T15:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+        <test-method status="PASS" signature="searchBox([Ljava.lang.String;)[pri:1, instance:com.atmecs.konakartautomation.testscripts.HomePageSearchBoxFunctionality@52af6cff]" name="searchBox" duration-ms="8864" started-at="2019-10-10T15:08:06Z" data-provider="searchbox" finished-at="2019-10-10T15:08:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3383649e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBox -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.konakartautomation.testscripts.HomePageSearchBoxFunctionality@52af6cff]" name="tearDown" is-config="true" duration-ms="5" started-at="2019-10-10T15:08:15Z" finished-at="2019-10-10T15:08:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBox status=SUCCESS method=HomePageSearchBoxFunctionality.searchBox([Ljava.lang.String;)[pri:1, instance:com.atmecs.konakartautomation.testscripts.HomePageSearchBoxFunctionality@52af6cff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.atmecs.konakartautomation.testscripts.HomePageSearchBoxFunctionality@52af6cff]" name="closeDriver" is-config="true" duration-ms="1093" started-at="2019-10-10T15:08:15Z" finished-at="2019-10-10T15:08:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.atmecs.konakartautomation.testscripts.HomePageSearchBoxFunctionality@52af6cff]" name="endReport" is-config="true" duration-ms="564" started-at="2019-10-10T15:08:16Z" finished-at="2019-10-10T15:08:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.atmecs.konakartautomation.testscripts.HomePageSearchBoxFunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+  <suite name="Suite (3)" duration-ms="45239" started-at="2019-10-10T15:09:32Z" finished-at="2019-10-10T15:10:18Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="45239" started-at="2019-10-10T15:09:32Z" finished-at="2019-10-10T15:10:18Z">
+      <class name="com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality@5f375618]" name="startReport" is-config="true" duration-ms="10" started-at="2019-10-10T15:09:32Z" finished-at="2019-10-10T15:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="intitailizeBrowser()[pri:0, instance:com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality@5f375618]" name="intitailizeBrowser" is-config="true" duration-ms="14949" started-at="2019-10-10T15:09:32Z" finished-at="2019-10-10T15:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+        <test-method status="PASS" signature="priceSlideBar(java.lang.String)[pri:8, instance:com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality@5f375618]" name="priceSlideBar" duration-ms="8997" started-at="2019-10-10T15:09:48Z" data-provider="priceslidebar" finished-at="2019-10-10T15:09:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceSlideBar -->
+        <test-method status="PASS" signature="priceSlideBar(java.lang.String)[pri:8, instance:com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality@5f375618]" name="priceSlideBar" duration-ms="7173" started-at="2019-10-10T15:09:56Z" data-provider="priceslidebar" finished-at="2019-10-10T15:10:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceSlideBar -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality@5f375618]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-10T15:09:56Z" finished-at="2019-10-10T15:09:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=priceSlideBar status=SUCCESS method=PriceSlideBarFunctionality.priceSlideBar(java.lang.String)[pri:8, instance:com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality@5f375618] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="priceSlideBar(java.lang.String)[pri:8, instance:com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality@5f375618]" name="priceSlideBar" duration-ms="6639" started-at="2019-10-10T15:10:04Z" data-provider="priceslidebar" finished-at="2019-10-10T15:10:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[75]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceSlideBar -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality@5f375618]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-10T15:10:04Z" finished-at="2019-10-10T15:10:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=priceSlideBar status=SUCCESS method=PriceSlideBarFunctionality.priceSlideBar(java.lang.String)[pri:8, instance:com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality@5f375618] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality@5f375618]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-10T15:10:10Z" finished-at="2019-10-10T15:10:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=priceSlideBar status=SUCCESS method=PriceSlideBarFunctionality.priceSlideBar(java.lang.String)[pri:8, instance:com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality@5f375618] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="priceSlideBar(java.lang.String)[pri:8, instance:com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality@5f375618]" name="priceSlideBar" duration-ms="6538" started-at="2019-10-10T15:10:10Z" data-provider="priceslidebar" finished-at="2019-10-10T15:10:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceSlideBar -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality@5f375618]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-10-10T15:10:17Z" finished-at="2019-10-10T15:10:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=priceSlideBar status=SUCCESS method=PriceSlideBarFunctionality.priceSlideBar(java.lang.String)[pri:8, instance:com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality@5f375618] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality@5f375618]" name="closeDriver" is-config="true" duration-ms="882" started-at="2019-10-10T15:10:17Z" finished-at="2019-10-10T15:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality@5f375618]" name="endReport" is-config="true" duration-ms="137" started-at="2019-10-10T15:10:18Z" finished-at="2019-10-10T15:10:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.atmecs.konakartautomation.testscripts.PriceSlideBarFunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (3) -->
+  <suite name="Suite (2)" duration-ms="22609" started-at="2019-10-10T15:09:10Z" finished-at="2019-10-10T15:09:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="22609" started-at="2019-10-10T15:09:10Z" finished-at="2019-10-10T15:09:32Z">
+      <class name="com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality@402f32ff]" name="startReport" is-config="true" duration-ms="11" started-at="2019-10-10T15:09:10Z" finished-at="2019-10-10T15:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="intitailizeBrowser()[pri:0, instance:com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality@402f32ff]" name="intitailizeBrowser" is-config="true" duration-ms="15058" started-at="2019-10-10T15:09:10Z" finished-at="2019-10-10T15:09:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intitailizeBrowser -->
+        <test-method status="PASS" signature="searchBoxWithoutSearchOption([Ljava.lang.String;)[pri:5, instance:com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality@402f32ff]" name="searchBoxWithoutSearchOption" duration-ms="2685" started-at="2019-10-10T15:09:25Z" data-provider="scenario3" finished-at="2019-10-10T15:09:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5e268ce6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBoxWithoutSearchOption -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality@402f32ff]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-10T15:09:28Z" finished-at="2019-10-10T15:09:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBoxWithoutSearchOption status=SUCCESS method=ComuterPeripheralsFunctionality.searchBoxWithoutSearchOption([Ljava.lang.String;)[pri:5, instance:com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality@402f32ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="searchBoxWithSearchOption([Ljava.lang.String;)[pri:6, instance:com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality@402f32ff]" name="searchBoxWithSearchOption" duration-ms="3183" started-at="2019-10-10T15:09:28Z" data-provider="scenario3" finished-at="2019-10-10T15:09:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3ed0918d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBoxWithSearchOption -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality@402f32ff]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-10T15:09:31Z" finished-at="2019-10-10T15:09:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBoxWithSearchOption status=SUCCESS method=ComuterPeripheralsFunctionality.searchBoxWithSearchOption([Ljava.lang.String;)[pri:6, instance:com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality@402f32ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="productDetailsVerify([Ljava.lang.String;)[pri:7, instance:com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality@402f32ff]" name="productDetailsVerify" duration-ms="337" started-at="2019-10-10T15:09:31Z" data-provider="product details" finished-at="2019-10-10T15:09:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3ac04654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDetailsVerify -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality@402f32ff]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-10T15:09:31Z" finished-at="2019-10-10T15:09:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productDetailsVerify status=SUCCESS method=ComuterPeripheralsFunctionality.productDetailsVerify([Ljava.lang.String;)[pri:7, instance:com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality@402f32ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="productDetailsVerify([Ljava.lang.String;)[pri:7, instance:com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality@402f32ff]" name="productDetailsVerify" duration-ms="202" started-at="2019-10-10T15:09:31Z" data-provider="product details" finished-at="2019-10-10T15:09:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@4074023c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDetailsVerify -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality@402f32ff]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-10-10T15:09:31Z" finished-at="2019-10-10T15:09:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productDetailsVerify status=SUCCESS method=ComuterPeripheralsFunctionality.productDetailsVerify([Ljava.lang.String;)[pri:7, instance:com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality@402f32ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality@402f32ff]" name="closeDriver" is-config="true" duration-ms="920" started-at="2019-10-10T15:09:31Z" finished-at="2019-10-10T15:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality@402f32ff]" name="endReport" is-config="true" duration-ms="110" started-at="2019-10-10T15:09:32Z" finished-at="2019-10-10T15:09:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.atmecs.konakartautomation.testscripts.ComuterPeripheralsFunctionality -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (2) -->
+</testng-results>
